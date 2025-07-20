@@ -8,4 +8,8 @@ function genqr(){
         qrimg.style.visibility = "visible";
 
     }
+    else{
+        alert("Please enter a valid text or link to generate QR code.");
+        qrimg.style.visibility = "hidden";
+    }
 }
